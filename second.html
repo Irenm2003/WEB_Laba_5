@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Подорожі доступні для всіх</title>
+        <link rel="stylesheet" href="Style-Bootstrap.css">
+        <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity = "sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Щоб сарацював слайдер підключаємо JavaScript файли  -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <!-- Хідер сайту -->
+        <div class="row lightblue_bgk">
+            <h1 class="col-lg-6 lightblue_bgk wids">Подорожі доступні для всіх</h1>
+            <div class="navbar navbar-expand-lg wids">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Головна</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Доступні тури</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Цікаві факти на поради</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контактні дані</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="first_blok" class="form-inline lightblue_bgk colom">
+            <img src="14.jpg" id="img_shoulds" alt="Готель">
+            <div id="first_text_bloks">
+                Якщо ви ще не визначились, куди саме хочете попрямувати, 
+                прогорніть Путівник чи Календар подій. Подорож можна прив’язати 
+                до численних гастрономічних, історичних чи музичних фестивалей та подій, 
+                або обрати для себе щось нове і рушити у карпатський регіон, 
+                де ви ще не встигли побувати.
+                <br>
+                <button>Більше цікавих місць</button>
+            <button>Поради для всіх туристів</button>
+            </div>
+        </div>
+        <!-- Слайдер-->
+        <div class="cize margin_center"> 
+            <div class="carousel slide cize_carotsel" id="carousels" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-tanget="#carousels" data-slide-to="0" class=""></li>
+                    <li data-tanget="#carousels" data-slide-to="1" class=""></li>
+                    <li data-tanget="#carousels" data-slide-to="2" class="active"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img class="img-fluid img_inner" src="15.jpg" alt="Тур Караптами">
+                        <div class="carousel-caption">
+                            <h1 class="display-2"></h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid img_inner" src="12.jpg" alt="Тур Морський">
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="img-fluid img_inner" src="13.jpg" alt="Лісний тур">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" role="button" href="#carousels" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" role="button" href="#carousels" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+<!-- Блок з більшею інформацією про тур-->
+    <div class="row light_color_bgk">
+        <h3 class="form-inline" id="name_sekond_blok">Тур по Карпатам</h3>
+    </div>
+    <div class="row light_color_bgk">
+        <div id="text_second_blok" class="form-inline">
+            <img src="16.jpg" id="second_img" alt="Карпатський пейзаж">
+            <div class="text_width" id="soulds">
+                Відвідання:
+                <br>Яблуницького перевалу
+                <br>Сувенірних ринків на Яблуницькому перевалі
+                <br>Перевернутого Будинку — Музею + Криївка УПА + «Кімнати сміху» (12 кривих дзеркал)  + галерея 3D картин
+                <br>“Дино-парку” – найбільшого в Україні парку динозаврів (найбільший висотою 10 метрів та довжиною 15 метрів), локації для фото, дитячий майданчик
+                <br>«Зоопарк Роботизованих Тварин»
+                <br>Єдиний в Європі «Парк Природи Карпат»
+                <br>Гуцульської Колиби
+                <br>водоспад «Пробій»
+                <br>сувенірні ринки у м. Яремче     
+            </div>
+        </div> 
+    </div>    
+    <div class="row margin_center" id="kards">
+        <div class="row-col-4 card mb-4 rounded-3 shadow-sm text_width">
+            <img src="17.jpg" class="margin_center kard" alt="Готель">
+            <div class="paddingd">
+                Ми пропонуємо Вам чудовий відпочинок в живописному місці карпатських
+                гір - смт. Ворохта, розташованому на території Карпатського природно-національного парку, 
+                у верхів'ї річки Прут на висоті 850 м над рівнем моря, в 10 км від знаменитої гори "Говерла" і в 18 км 
+                від гірськолижного курорту "Буковель".
+            </div>
+        </div>
+        <div class="row-col-4 card mb-4 rounded-3 shadow-sm text_width">
+            <img src="18.jpg" class="margin_center kard" alt="Озеро Синевир">
+            <div class="paddingd">
+                на території однойменного Національного природнього парку відвідаємо найбільше та найвисокогірніше
+                озеро Українських Карпат – Синевир! Місцеві жителі переповідають давню легенду, що нібито мальовниче 
+                озеро утворилося від потоку сліз графської доньки Синь, на місці, де її коханого, простого верховинського 
+                пастуха Вира, було вбито камінною глибою за наказом підступного графа…Правда це чи ні ми зможе переконатись відвідавши екскурсію «Таємниця Синевиру».
+            </div>
+        </div>
+        <div class="row-col-4 card mb-4 rounded-3 shadow-sm text_width">
+            <img src="19.jpg" class="matgin_center kard" alt="Бринза">
+            <div class="paddingd">
+                До низки наших турів до Закарпаття входить відвідування гірських сироварень, знайомство з процесом та секретами 
+                виробництва різних видів сиру, дегустація сирних смаколиків, екскурсії по фермах. Наші популярні тури з присмаком сиру:  
+                <br>«Сиро-винний тур Закарпаттям» (2 дні / 1 ніч); 
+                <br>«10 родзинок Закарпаття» (3 дні / 2 ночі); 
+                <br>«На Бринзу до Рахова» (2 дні / 1 ніч); 
+                <br>тур-відпустка «Довкола Карпат за 7 днів» (7 днів / 6 ночей) не лишають байдужими навіть найприскіпливіших гурманів. 
+                <br>5 cироварень Закарпаття 
+            </div>
+        </div>
+    </div>
+<!--Кінцевий блок-->
+        <div id="lightblue_bgks">
+            <div class="lightblue_bgk end_text">
+                Зацікавили? 
+            </div>
+            <button id="first_end_button" class="lightblue_bgk end_button">Замовити тур</button>
+            <button id="sekond_end_button" class="lightblue_bgk end_button">Додаткові відгуки</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,122 @@
+.light_color_bgk{ /*клас стилів для світлого фону*/
+    background-color: azure;
+}
+#lightblue_bgks{/*айді фон для кіцевої фрази та розмір самого блоку*/
+    background-color: #add8e6;
+    width: 100%; 
+    height: 25%;
+}
+.lightblue_bgk{/* клас для визначення світлоблокитного кольору фону*/
+    background-color: #add8e6;
+}
+.wids{/*клас для ширини об'єкту*/
+    width: 50%;
+}
+#first_blok{/*стілі до першого ЗАГАЛЬНОГО текстовогоблоку*/
+    margin-right:-15px; 
+    margin-left: -15%; 
+    margin-bottom: 2%;
+}
+#first_text_blok{/*стилі до першого безпосередньо тектового блоку*/
+    width: 30%; 
+    text-align: center; 
+    margin-left: 25%;
+}
+.margin_center{ /*Клас за допомогою якого можна розмістити будь-який елемент посередині*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_inner{/*Стилі до зображень слайдеру*/
+    width: 100%;
+    max-height: 25%
+}
+#name_sekond_blok{/*стилі до назви другого текстового блоку*/
+    padding-left: 35%;
+    margin-top:3%;
+}
+#text_second_blok{ /*Стилі до другого текстового блоку*/
+    margin-left: 25%;
+    margin-top:3%;
+}
+#second_img{/*стилі до другого зображення*/
+    width: 35%;
+}
+.text_width{/*Клас стилів для ширини тексту в другому текстовому блоці*/
+    width: 30%;
+}
+.cize{/*Стилі для рощміру слайдеру*/
+    width: 80%; 
+    display: flex;
+}
+@media(min-width: 576px) 
+    {
+        .cize{
+            width: 75%;
+            height: 65%;
+            display:block;
+        }
+    }
+#img_should{/*стилі до розміму другого зображення*/
+    height: auto;
+    width: 22%;
+}
+#sould{/*Стилі до цитати другої*/
+    text-align: center; 
+    margin-left: 5%;
+} 
+.kard{ /*стилі до карток*/
+    width: 80%; 
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+.cize_carotsel{/*Стилі до розміщення слайдеру на сайті*/
+    width: 100%; 
+    max-height: 25%;
+}
+.paddingd{ /*Стилі для внутрішніх відступів тексту в картках*/
+    padding: 3%;
+}
+.end_text{/*Стилі до кінцевої фрази*/
+    width: 100%;  
+    text-align: center; 
+    margin-bottom: 0%; 
+    font-weight: 700;
+    padding: 2%;
+}
+.end_button{/*стилі до нижніх ктопок*/
+    background-color: aquamarine;
+    padding: 1%; 
+    margin-bottom: 2%; 
+}
+#first_end_button{/*стилі лише до першої кінцевої кнопки*/
+    margin-left: 33%;
+}
+#sekond_end_button{ /*стилі лише до другої кінцевої кнопки*/
+    margin-left: 5%;
+}
+
+/*Подальші стилі будуть для файлу second.html*/
+
+.colom{/*Стиді для того щою фото було нaд текстом*/
+    flex-direction:column;
+}
+#img_shoulds{/* Стилі для першого фото*/
+    margin-bottom: 2%; 
+    margin-top: 2%; 
+    width: 70%;
+    margin-left: 20%;
+}
+#first_text_bloks{/*стилі для тексту*/
+    width: 30%;
+    text-align: center;
+    margin-left: 45%;
+}
+.soulds{/*Клас для тексу про тур*/
+    width: 52%;
+}
+#kards{/* Загальні стилі до карток*/
+    width: 100%; 
+    display: flex; 
+    justify-content:space-around; 
+    margin-top: 5%;
+}
